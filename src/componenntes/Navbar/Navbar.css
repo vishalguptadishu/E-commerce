@@ -1,0 +1,13 @@
+.Navbar{
+    border: 1px solid red;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Link_to_page{
+    display: flex;
+    align-items: center;
+}
