@@ -18,13 +18,7 @@ const Deal_Of_The_Week = ()=>{
         mintfun()
     },360000);
 
-    // setInterval(() => {
-    //     secfun()
-    // },1000);
-
-    // useEffect(()=>{
-    //     secfun()
-    // },sec)
+    
 
     return( <>
         <Container fluid className="mt-4" style={{backgroundColor:"#f2f2f2"}} >
