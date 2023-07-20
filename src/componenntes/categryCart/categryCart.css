@@ -1,0 +1,22 @@
+.rowimgbtn{
+    position: relative;
+}
+.btn_img{
+    position: absolute;
+    margin-top: -20vh;    
+    margin-left: 4vw;
+    height: 100px;
+}
+.img_categry img{   
+    height: 100%;
+    width: 100%;
+} 
+.btn_img button{
+   border: none;
+    margin-top: -100px;
+    margin-left: 50px;
+    padding: 2vh 7vh 2vh 7vh;
+    font-size: 20px;
+    font-weight: bold;
+}
+

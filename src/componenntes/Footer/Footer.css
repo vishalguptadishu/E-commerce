@@ -1,0 +1,55 @@
+.cont_foot{
+    margin-top: 10vh;
+   
+}
+.count_foot2{
+    background-color: #f2f2f2;
+    
+}
+.email_col_foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.col_foot_h h4{
+    font-size: 25px;
+    padding-left: 5vw;
+    
+}
+
+.col_foot_h p{
+    font-size: 14px;
+    margin-top: -2vh;
+    padding-left: 5vw;
+}
+
+.email_col_foot input{
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.email_col_foot button{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #fe4c50;
+    color: white;
+}
+.foot_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.foot_22{
+    margin-top: 100px;
+}

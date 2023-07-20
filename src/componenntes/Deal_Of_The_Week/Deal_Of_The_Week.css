@@ -1,0 +1,36 @@
+.col_deal img{
+    margin-left: 8vw;
+}
+
+.deal_time{
+    margin-left: 10vw;
+}
+.timer_deal{
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.timer_deal h1{
+    font-size: 40px;
+    color: orangered;
+    margin-bottom: -5px;
+}
+
+.timer_deal p{
+    font-size: 20px;
+}
+
+.deal_btn{
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 12vw;
+    margin-top: 12vh;
+}

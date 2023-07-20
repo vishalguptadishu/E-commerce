@@ -1,0 +1,39 @@
+.img_blog img{
+    /* height: 250px; */
+    /* width: 350px; */
+    height: 40vh;
+    width: 25vw;
+}
+
+.img_blog {
+    position: absolute;
+}
+
+.text_blog{
+    width: 22vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.0;
+    /* position: absolute; */
+    margin-top: 25px;
+    margin-left: 20px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+
+}
+.text_blog h4,p{
+    color: black;
+    /* opacity: 1; */
+    /* font-size: 5px; */
+}
+
+.text_blog:hover{
+    transform: scale(1);
+    opacity: 0.8;
+}

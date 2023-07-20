@@ -1,0 +1,31 @@
+.cart_btn{
+    margin-bottom: -15px;
+    width: 100%;
+    /* margin-left: -16px; */
+    border-radius: 0px;
+    margin-top: 2vh;
+    visibility: hidden;
+}
+
+.cart{
+    border: 0px;
+    border-right: 00.1px solid rgb(224, 224, 224);
+    border-radius: 0px;
+    width: 14rem;
+}
+.cart:hover{
+    border-radius: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cart:hover .cart_btn{
+    display: block;
+    visibility: visible
+}
+
+@media (max-width: 768px) {
+    .cart{
+       width: 100%;
+      
+    }
+  }

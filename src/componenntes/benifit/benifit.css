@@ -1,0 +1,33 @@
+.cont{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+.row_benefit{
+    height: 15vh;
+}
+.col_benefit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    background-color: #f2f2f2;
+}
+.icon_benefit i{
+    font-size: 30px;
+    color: #fe4c50;
+    margin-left: 1vw;
+}
+.p_benefit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p_benefit h6{
+   padding-top: 3vh;
+   font-size: 14px;
+}
+.p_benefit p{
+    font-size: 14px;
+    margin-top: -10px;
+}
