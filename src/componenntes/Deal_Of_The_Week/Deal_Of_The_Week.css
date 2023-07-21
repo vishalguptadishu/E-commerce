@@ -34,3 +34,60 @@
     margin-left: 12vw;
     margin-top: 12vh;
 }
+
+
+
+
+.time_deal{
+    margin-left: 10vw;
+    margin-top: 20vh;
+}
+
+@media only screen and (max-width:600px){
+     
+    .deal_col{
+        display: flex;
+        flex-direction: column;
+    }
+    .deal_img{
+        position: absolute;
+    }
+    .deal_img img{
+        margin-left: -110px;
+        padding-left: -20px;
+        width: 100vw;
+    }
+    .time_deal{
+        position: relative;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .timer_deal{
+        height: 80px;
+        width: 80px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .timer_deal h1{
+        font-size: 25px;
+        color: orangered;
+        margin-bottom: -5px;
+    }
+    
+    .timer_deal p{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .deal_btn{
+       
+        margin-left: 25vw;
+        margin-top: 12vh;
+        margin-bottom: 7vh;
+    }
+
+}

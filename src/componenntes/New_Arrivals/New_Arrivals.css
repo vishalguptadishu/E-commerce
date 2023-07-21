@@ -8,8 +8,15 @@
 }
 
 .btn-group button:hover{
-    background-color: orangered;
+    background-color: #fe4c50;
+    border: 1px solid #fe4c50;
 
     
 }
 
+@media only screen and (max-width:600px){
+.new_carts{
+    margin-left: -60px;
+    
+}
+}

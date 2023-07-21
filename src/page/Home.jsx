@@ -16,7 +16,7 @@ const Home = () =>{
             <Poster />
             <CategryCart />
             <New_Arrivals />
-            <Cart />
+            {/* <Cart /> */}
             <Deal_Of_The_Week />
             <Card_scrool />
             <Benifit />

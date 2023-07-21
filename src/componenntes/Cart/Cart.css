@@ -26,6 +26,7 @@
 @media (max-width: 768px) {
     .cart{
        width: 100%;
+       border-right: 0px;
       
     }
   }

@@ -6,7 +6,7 @@ const Benifit = () => {
   return (
     <Container className="cont">
       <Row className="row_benefit">
-        <Col className="col col_benefit ">
+        <Col sm={6} md={3} lg={3} className=" col_benefit ">
           <div className="icon_benefit">
             <i>
               <FaTruck />
@@ -17,7 +17,7 @@ const Benifit = () => {
             <p>Suffered Alteration in Some Form</p>
           </div>
         </Col>
-        <Col className="col col_benefit">
+        <Col  sm={6} md={3} lg={3} className=" col_benefit">
           <div className="icon_benefit">
             <i>
               <FaRegListAlt />
@@ -28,7 +28,7 @@ const Benifit = () => {
             <p>The Internet Tend To Repeatt</p>
           </div>
         </Col>
-        <Col className="col col_benefit">
+        <Col sm={6} md={3} lg={3} className=" col_benefit">
           <div className="icon_benefit">
             <i>
               <FaRedo />
@@ -39,7 +39,7 @@ const Benifit = () => {
             <p>Making it Look Like Readable</p>
           </div>
         </Col>
-        <Col className="col col_benefit">
+        <Col sm={6} md={3} lg={3} className=" col_benefit">
           <div className="icon_benefit">
             <i>
               <FaClock />

@@ -19,15 +19,15 @@ const Footer =()=>{
                  </Col>
             </Row>
 
-            <Row>
-                <Col className="col_sm-6 d-flex align-items-center justify-content-between ">
-                 <div className=" d-flex align-items-center gap-5 ms-5 ps-5 mt-5 text-secondary ">
+            <Row className="">
+                <Col className="col-sm-6 row_foot d-flex align-items-center justify-content-between ">
+                 <div className=" d-flex row_foot_div1 align-items-center gap-5 ms-5 ps-5 mt-5 text-secondary ">
                     <p>Blog</p>
                     <p> FAQs</p>
                     <p>Contact us</p>
                  </div>
                 
-                 <div className="d-flex align-items-center ps-5 mt-5  gap-5 text-secondary " >
+                 <div className="d-flex row_foot_div11 align-items-center me-5 pe-5 mt-5  gap-5 text-secondary " >
                     <i><BsFacebook /></i>
                     <i><BsTwitter /></i>
                     <i><BsInstagram /></i>
@@ -38,8 +38,8 @@ const Footer =()=>{
             </Row>
                 <Row >
                 <Col className="col_sm-12">
-                <div className=" mt-5 ms-5 pt-5 mb-5">
-                    <p>©2018 All Rights Reserverd. This template is made with  by Colorlib</p>
+                <div className="row_foot_div2 text-center mt-5 ms-5 pt-5 mb-5">
+                    <p>©2018 All Rights Reserverd. This template is made with  by Colorlib.</p>
                  </div>
                 </Col>
                 </Row>
