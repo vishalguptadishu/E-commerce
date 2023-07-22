@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 
 const Cart = ({ obj }) => {
   return (
-    <Container className="d-flex align-items-center ms-5">
+    <Container className="d-flex align-items-center ">
       <Row>
         {obj.map((elem, index) => (
           <Card className="text-center col-sm-4 cart mt-5" key={index}>
@@ -15,7 +15,7 @@ const Cart = ({ obj }) => {
               <Card.Text>{elem.text}</Card.Text>
               <Card.Title>{elem.price}</Card.Title>
               <Button className="cart_btn" variant="primary">
-                Go somewhere
+                ADD TO CARD
               </Button>
             </Card.Body>
           </Card>

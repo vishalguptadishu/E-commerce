@@ -16,7 +16,13 @@
 
 @media only screen and (max-width:600px){
 .new_carts{
-    margin-left: -60px;
-    
+    margin-left: -30px;
+    margin-bottom: 30px; 
+}
+.btn-group{
+    margin-left: -30px;
+}
+.text-center h1{
+    margin-left: -30px;
 }
 }
