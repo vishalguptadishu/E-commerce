@@ -13,7 +13,7 @@ const Cart = ({ obj }) => {
             <Card.Img variant="top" src={elem.url} />
             <Card.Body>
               <Card.Text>{elem.text}</Card.Text>
-              <Card.Title>{elem.price}</Card.Title>
+              <Card.Title>$ {elem.price}</Card.Title>
               <Button className="cart_btn" variant="primary">
                 ADD TO CARD
               </Button>
