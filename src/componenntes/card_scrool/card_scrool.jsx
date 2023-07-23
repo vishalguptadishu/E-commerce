@@ -1,32 +1,31 @@
-import { Container } from "react-bootstrap";
+import Carousel from 'react-bootstrap/Carousel';
+// import ExampleCarouselImage from 'components/ExampleCarouselImage';
+// import { Container } from "react-bootstrap";
 import "./card_scrool.css"
+import { Container } from 'react-bootstrap';
 
 const Card_scrool =()=>{
     return (
-        <Container>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://preview.colorlib.com/theme/coloshop/images/product_5.png" class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src="https://preview.colorlib.com/theme/coloshop/images/product_6.png" class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item">
-      <img src="https://preview.colorlib.com/theme/coloshop/images/product_5.png" class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</Container>
-    )
-}
-
+      <Container>
+          <Carousel >
+            <Carousel.Item>
+            <img src="https://preview.colorlib.com/theme/coloshop/images/product_5.png" class=" ma-5 w-50"  alt="..."/>
+             <img src='https://preview.colorlib.com/theme/coloshop/images/product_6.png' class=" ma-5 w-50" />
+            </Carousel.Item>
+            <Carousel.Item>
+            <img src="https://preview.colorlib.com/theme/coloshop/images/product_3.png" class=" ma-5 w-50"  alt="..."/>
+            <img src="https://preview.colorlib.com/theme/coloshop/images/product_7.png" class=" ma-5 w-50"  alt="..."/>
+            </Carousel.Item>
+            <Carousel.Item>
+            <img src="https://preview.colorlib.com/theme/coloshop/images/product_2.png" class=" ma-5 w-50" alt="..."/>
+            <img src="https://preview.colorlib.com/theme/coloshop/images/product_4.png" class=" ma-5 w-50"  alt="..."/>
+            </Carousel.Item>
+          </Carousel>
+          </Container>
+        )
+          }
 export default Card_scrool;
+
+
+{/* <img src="https://preview.colorlib.com/theme/coloshop/images/product_5.png" class="d-block w-100" alt="..."/> */}
+// class="d-block w-100"

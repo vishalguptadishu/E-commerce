@@ -9,3 +9,19 @@
     text-align: center;
     
 }
+
+.NavLink:hover {
+    color: red; /* Change the color to your desired hover color */
+    /* Add any other styles you want to apply when the link is hovered */
+  }
+  .navcolocr{
+    color: gray;
+    font-weight: bold;
+  }
+
+  .navcolocr:hover {
+    color: red;
+  }
+  .active{
+    color: red;
+  }
