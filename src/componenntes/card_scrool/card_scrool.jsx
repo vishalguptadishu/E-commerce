@@ -1,6 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
-// import { Container } from "react-bootstrap";
 import "./card_scrool.css"
 import { Container } from 'react-bootstrap';
 
@@ -25,7 +23,3 @@ const Card_scrool =()=>{
         )
           }
 export default Card_scrool;
-
-
-{/* <img src="https://preview.colorlib.com/theme/coloshop/images/product_5.png" class="d-block w-100" alt="..."/> */}
-// class="d-block w-100"

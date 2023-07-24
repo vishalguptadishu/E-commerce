@@ -6,17 +6,20 @@ const Deal_Of_The_Week = ()=>{
     let [mint,setmint]=useState(59)
     let [sec,setsec]=useState(59)
 
-    useEffect(()=>{
-        setInterval(() => {
-            setsec((prev)=>prev-1)
+    useEffect(() => {
+        const interval = setInterval(() => {
+          if (sec === 0) {
+            if (mint > 0) {
+                setmint((prevMinutes) => prevMinutes - 1);
+                setsec(59);
+            }
+          } else {
+            setsec((prevSeconds) => prevSeconds - 1);
+          }
         }, 1000);
-    },[])
-
-    useEffect(()=>{
-        setInterval(() => {
-            setmint((prev)=>prev-1)
-        }, 360000);
-    },[])
+    
+        return () => clearInterval(interval);
+      }, [mint, sec]);
 
     
 

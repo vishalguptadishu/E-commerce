@@ -20,19 +20,30 @@ let New_Arrivals_obj=[
 
 
 const New_Arrivals=()=>{
-  let [all,setall]=useState();
-  let [men,setmen]=useState();
-  let [women,setwomen]=useState();
-  let [accessorties,setaccessorties]=useState();
- 
+  let [all,setall]=useState(New_Arrivals_obj);
+  // let [all,setwomen]=useState(New_Arrivals_obj);
+
   function handalall(){
+    
+    // console.log(n)
     setall(New_Arrivals_obj)
   }
-  
+
   function handalmen(){
-    let n=New_Arrivals_obj.filter(p => p.gender=="men")
+    let men=New_Arrivals_obj.filter(men => men.gender ==="men")
     // console.log(n)
-    setall(n)
+    setall(men)
+  }
+  function handalwomen(){
+    let women=New_Arrivals_obj.filter(women => women.gender ==="women")
+    // console.log(n)
+    setall(women)
+  }
+
+  function handalaccessorties(){
+    let accessorties=New_Arrivals_obj.filter(accessorties => accessorties.gender ==="accessorties")
+    // console.log(n)
+    setall(accessorties)
   }
 
     return (
@@ -46,9 +57,9 @@ const New_Arrivals=()=>{
             <Col className="col mt-5 d-flex align-items-center justify-content-center">
               <div class="btn-group  " role="group" aria-label="Basic example">
                 <button type="button" onClick={handalall} class="btn btn-primary">All</button>
-                <button type="button" onClick={handalmen} class="btn btn-primary">Women's</button>
-                <button type="button" class="btn btn-primary">ACCESSORIES</button>
-                <button type="button" class="btn btn-primary">MEN's</button>
+                <button type="button" onClick={handalwomen} class="btn btn-primary">Women's</button>
+                <button type="button" onClick={handalaccessorties} class="btn btn-primary">ACCESSORIES</button>
+                <button type="button" onClick={handalmen} class="btn btn-primary">MEN's</button>
               </div>
             </Col>
             </Row>

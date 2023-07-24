@@ -1,0 +1,12 @@
+/* card_scrool.css */
+
+/* Custom styles for Carousel control buttons */
+.carousel-control-prev,
+.carousel-control-next {
+  color: black; /* Change the color of the control buttons */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* Invert the color of the default icon (white) to black */
+}
