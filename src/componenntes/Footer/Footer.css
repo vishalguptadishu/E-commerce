@@ -42,6 +42,15 @@
 .row_foot{   
     width: 100%;
 }
+.row_foot_div1{
+    
+    cursor: pointer;
+}
+.row_foot_div11{
+    
+    cursor: pointer;
+}
+
 
 @media only screen and (max-width:600px){
     .col_foot_h h4{
@@ -63,6 +72,7 @@
     }
     .row_foot_div11{
         margin-left: 60px;
+        cursor: pointer;
     }
     
     .row_foot_div2 p{
